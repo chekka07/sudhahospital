@@ -1,0 +1,109 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+.specialities-box {
+    padding: 70px 0px;
+    background-color: #fff;
+}
+
+.title-box p{
+    font-size: 20px;
+    color: #000;
+}
+
+p.description{
+    text-align: justify;
+}
+
+p.doctorsName{
+    font-size: 18px;
+    color: #000 !important;
+    text-align: center !important;
+    line-height: 1;
+}
+
+p.doctorsName strong{
+    font-size: 18px;
+    /* color: #000 !important; */
+}
+
+.col-lg-4 h2, .col-md-4 h2, .col-sm-12 h2{
+    color: #000;
+    margin-top: 15px;
+}
+
+.col-lg-4 p, .col-md-4 p, .col-sm-12 p{
+    color: #000;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-top: 15px;
+}
+
+.container-flex{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ivf-box{
+    padding: 70px 0px 0px;
+    background-color: #fff;
+}
+
+.ivf-content h2{
+    color: #FF8B00; 
+    font-weight: 600; 
+    font-size: 24px;
+    text-align: center;
+}
+
+.ivf-content p{
+    color: #38356A; 
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.ivf-content .spec-box p{
+    font-size: 22px;
+    padding: 10px;
+    background-color: #FF8B00;
+    border: #38356A 1px solid;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 10px 5px;
+    box-shadow: #38356A -1px 3px 8px 0px;
+}
+
+.ivf-doc p.doctorsName strong{
+    font-size: 22px;
+}
+
+/* .ivf-doc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+} */
+
+.container-fluid-IVFBlock{
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #38356A;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.container-fluid-IVFBlock li{
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+}

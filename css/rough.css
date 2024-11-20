@@ -1,0 +1,186 @@
+.services-box{
+	padding: 70px 0px;
+	background-color: #f2f3f5;
+}
+
+.specialitiesBox{
+    padding: 35px 20px 25px;
+    border: 1px solid #000;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.specialitiesBox:hover{ border-color: #FF8B00 ; }
+.specialitiesBox:before{
+    content: "";
+    border-top: 20px solid #000;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    transition: all 0.3s ease 0s;
+}
+.specialitiesBox:hover:before{ border-top-color: #FF8B00 ; }
+.specialitiesBox .specialities-icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 35px;
+    z-index: 1;
+    position: relative;
+    transition:all 0.3s ease 0s;
+}
+.specialitiesBox:hover .specialities-icon{ color: #fff; }
+.specialitiesBox .specialities-icon:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: 1px solid #000;
+    position: absolute;
+	/* background-image: url(/images/sp-one.jpg); */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(45deg);
+    transition: all 0.3s ease 0s;
+}
+.specialitiesBox:hover .specialities-icon:before{
+    border-color: #FF8B00 ;
+    background: #FF8B00 ;
+}
+.specialitiesBox .title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+	padding: 0;
+}
+.specialitiesBox .description{
+    font-size: 15px;
+    color: #999;
+    line-height: 27px;
+    margin: 0 0 10px 0;
+}
+@media only screen and (max-width:990px){
+    .specialitiesBox{ margin-bottom: 30px; }
+}
+
+.specialitiesBox a{
+	border-radius: 2px;
+	transition: .2s;
+	letter-spacing: 1px;
+	padding: 10px 18px;
+	background: #ffffff;
+	color: #FF8B00;
+	display: inline-block;
+	line-height: 12px;
+}
+
+.specialitiesBox a.new-btn-d.br-2{
+	border: 2px solid #FF8B00;
+}
+.specialitiesBox a:hover{
+	color: #ffffff;
+}
+.specialitiesBox a.new-btn-d::before {
+    background: rgba(18,85,127,0.2);
+}
+.services-box{
+	padding: 70px 0px;
+	background-color: #f2f3f5;
+}
+
+.serviceBox{
+    padding: 35px 20px 25px;
+    border: 1px solid #000;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover{ border-color: #FF8B00 ; }
+.serviceBox:before{
+    content: "";
+    border-top: 20px solid #000;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover:before{ border-top-color: #FF8B00 ; }
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 35px;
+    z-index: 1;
+    position: relative;
+    transition:all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon{ color: #fff; }
+.serviceBox .service-icon:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: 1px solid #000;
+    position: absolute;
+	/* background-image: url(/images/sp-one.jpg); */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(45deg);
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon:before{
+    border-color: #FF8B00 ;
+    background: #FF8B00 ;
+}
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+	padding: 0;
+}
+.serviceBox .description{
+    font-size: 15px;
+    color: #999;
+    line-height: 27px;
+    margin: 0 0 10px 0;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+
+.serviceBox a{
+	border-radius: 2px;
+	transition: .2s;
+	letter-spacing: 1px;
+	padding: 10px 18px;
+	background: #ffffff;
+	color: #FF8B00;
+	display: inline-block;
+	line-height: 12px;
+}
+
+.serviceBox a.new-btn-d.br-2{
+	border: 2px solid #FF8B00;
+}
+.serviceBox a:hover{
+	color: #ffffff;
+}
+.serviceBox a.new-btn-d::before {
+    background: rgba(18,85,127,0.2);
+}
